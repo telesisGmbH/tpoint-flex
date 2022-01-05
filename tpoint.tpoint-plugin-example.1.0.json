@@ -1,0 +1,28 @@
+{
+    "manifests": {
+        "tpoint/tpoint-plugin-example": {
+            "manifest": {
+                "bundles": {
+                    "tpoint\\PluginExampleBundle\\tpointPluginExampleBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/routes/tpoint_plugin_example.yaml": {
+                    "contents": [
+                        "_tpoint_plugin_example:",
+                        "    resource: '@tpointPluginExampleBundle/config/routing.yaml'",
+                        "    prefix: /plugin-example",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "529639b18d2a11d1311eb31811fde6b242a6c101"
+        }
+    }
+}
