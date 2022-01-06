@@ -1,4 +1,4 @@
-#tpoint-flex
+# tpoint-flex
 
 This repository stores flex recipes for tpoint plugins. An example plugin is available [here](https://github.com/samm-tpoint/tpoint-plugin-example/).
 
