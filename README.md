@@ -2,6 +2,22 @@
 
 This repository stores flex recipes for tpoint plugins. An example plugin is available [here](https://github.com/samm-tpoint/tpoint-plugin-example/).
 
+## Installation 
+Configure private flex repository in `composer.json`
+```
+"extra": {
+    "symfony": {
+        "allow-contrib": true, #enables no interaction installs of flex recipes
+        "endpoint": [
+            "https://api.github.com/repos/samm-tpoint/flex/contents/index.json",
+            "flex://defaults"
+        ]
+    }
+}
+```
+
+That's it.
+
 ## What is Symfony Flex?
 
 The official documentation does a good job explaining [Symfony Flex](https://symfony.com/doc/current/setup/flex.html), 
