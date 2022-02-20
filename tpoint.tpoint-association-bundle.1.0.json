@@ -1,0 +1,27 @@
+{
+    "manifests": {
+        "tpoint/tpoint-association-bundle": {
+            "manifest": {
+                "bundles": {
+                    "tpoint\\AssociationBundle\\tpointAssociationBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                }
+            },
+            "files": {
+                "config/routes/tpoint_association_bundle.yaml": {
+                    "contents": [
+                        "tpoint_association_bundle:",
+                        "   resource: '@tpointAssociationBundle/config/routing.yaml'",
+                        "   prefix: /manage/association"
+                    ],
+                    "executable": false
+                }
+            },
+           "ref": "6502c78b8ac89fe45786ce9c97e70066d74a1af4"
+        }
+    }
+}

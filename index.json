@@ -2,6 +2,12 @@
     "recipes": {
         "tpoint/tpoint-plugin-example": [
             "1.0"
+        ],
+        "tpoint/tpoint-klimacent-bundle": [
+            "1.0"
+        ],
+        "tpoint/tpoint-association-bundle": [
+            "1.0"
         ]
     },
     "branch": "main",
