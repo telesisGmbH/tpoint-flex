@@ -7,8 +7,8 @@
     "branch": "main",
     "is_contrib": true,
     "_links": {
-        "repository": "github.com/samm-tpoint/flex",
-        "origin_template": "{package}:{version}@github.com/samm-tpoint/flex:main",
-        "recipe_template": "https://api.github.com/repos/samm-tpoint/flex/contents/{package_dotted}.{version}.json"
+        "repository": "github.com/telesisGmbH/tpoint-flex",
+        "origin_template": "{package}:{version}@github.com/telesisGmbH/tpoint-flex:main",
+        "recipe_template": "https://api.github.com/repos/telesisGmbH/tpoint-flex/contents/{package_dotted}.{version}.json"
     }
 }
